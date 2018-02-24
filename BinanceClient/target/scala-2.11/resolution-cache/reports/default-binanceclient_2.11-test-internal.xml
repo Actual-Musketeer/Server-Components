@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="binanceclient_2.11"
+		revision="0.1.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180224191517"/>
+	<dependencies>
+		<module organisation="org.scalanlp" name="breeze_2.11">
+			<revision name="0.11.2" status="release" pubdate="20150326171049" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4301" time="97" location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze_2.11\ivy-0.11.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze_2.11\ivy-0.11.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.11.2/breeze_2.11-0.11.2.pom"/>
+				<caller organisation="default" name="binanceclient_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.11.2" rev-constraint-default="0.11.2" rev-constraint-dynamic="0.11.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="breeze_2.11" type="jar" ext="jar" status="successful" details="" size="13448966" time="7723" location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze_2.11\jars\breeze_2.11-0.11.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.11.2/breeze_2.11-0.11.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325205215" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2689" time="99" location="C:\Users\Chris\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.5.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="26084" time="963" location="C:\Users\Chris\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424162931" resolver="public" artresolver="public" homepage="http://spire-math.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2326" time="100" location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire_2.11\ivy-0.7.4.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire_2.11\ivy-0.7.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="spire_2.11" type="jar" ext="jar" status="successful" details="" size="7276083" time="3254" location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire_2.11\jars\spire_2.11-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire-macros_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424162231" resolver="public" artresolver="public" homepage="http://spire-math.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2166" time="110" location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire-macros_2.11\ivy-0.7.4.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire-macros_2.11\ivy-0.7.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4.pom"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.7.4"/>
+				<artifacts>
+					<artifact name="spire-macros_2.11" type="jar" ext="jar" status="successful" details="" size="86811" time="1138" location="C:\Users\Chris\.ivy2\cache\org.spire-math\spire-macros_2.11\jars\spire-macros_2.11-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402203128" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-math/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="17431" time="106" location="C:\Users\Chris\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="successful" details="" size="1692782" time="3549" location="C:\Users\Chris\.ivy2\cache\org.apache.commons\commons-math3\jars\commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.rwl" name="jtransforms">
+			<revision name="2.4.0" status="release" pubdate="20120519150656" resolver="public" artresolver="public" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MPL" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<license name="GPL" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2817" time="95" location="C:\Users\Chris\.ivy2\cache\com.github.rwl\jtransforms\ivy-2.4.0.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\com.github.rwl\jtransforms\ivy-2.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="jtransforms" type="jar" ext="jar" status="successful" details="" size="764569" time="2622" location="C:\Users\Chris\.ivy2\cache\com.github.rwl\jtransforms\jars\jtransforms-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005095127" resolver="public" artresolver="public" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1482" time="95" location="C:\Users\Chris\.ivy2\cache\junit\junit\ivy-4.8.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\junit\junit\ivy-4.8.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="com.github.rwl" name="jtransforms" conf="compile, runtime" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="237344" time="1184" location="C:\Users\Chris\.ivy2\cache\junit\junit\jars\junit-4.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728060018" resolver="public" artresolver="public" homepage="http://opencsv.sf.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5445" time="99" location="C:\Users\Chris\.ivy2\cache\net.sf.opencsv\opencsv\ivy-2.3.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\net.sf.opencsv\opencsv\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="opencsv" type="jar" ext="jar" status="successful" details="" size="19827" time="675" location="C:\Users\Chris\.ivy2\cache\net.sf.opencsv\opencsv\jars\opencsv-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126115411" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="5427" time="99" location="C:\Users\Chris\.ivy2\cache\com.github.fommil.netlib\core\ivy-1.1.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\com.github.fommil.netlib\core\ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="core" type="jar" ext="jar" status="successful" details="" size="164422" time="2053" location="C:\Users\Chris\.ivy2\cache\com.github.fommil.netlib\core\jars\core-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.11">
+			<revision name="0.11.2" status="release" pubdate="20150326061250" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2182" time="112" location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze-macros_2.11\ivy-0.11.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze-macros_2.11\ivy-0.11.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.11.2/breeze-macros_2.11-0.11.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="0.11.2" rev-constraint-default="0.11.2" rev-constraint-dynamic="0.11.2" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="successful" details="" size="135552" time="1582" location="C:\Users\Chris\.ivy2\cache\org.scalanlp\breeze-macros_2.11\jars\breeze-macros_2.11-0.11.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.11.2/breeze-macros_2.11-0.11.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506150115" resolver="public" artresolver="public" homepage="https://github.com/spray/spray-json" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2151" time="108" location="C:\Users\Chris\.ivy2\cache\io.spray\spray-json_2.11\ivy-1.3.2.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\io.spray\spray-json_2.11\ivy-1.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="default" name="binanceclient_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="bundle" ext="jar" status="successful" details="" size="286389" time="1693" location="C:\Users\Chris\.ivy2\cache\io.spray\spray-json_2.11\bundles\spray-json_2.11-1.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s_2.11">
+			<revision name="3.2.11" status="release" pubdate="20141024020942" resolver="public" artresolver="public" homepage="https://github.com/json4s/json4s" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2001" time="98" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s_2.11\ivy-3.2.11.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s_2.11\ivy-3.2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s_2.11/3.2.11/json4s_2.11-3.2.11.pom"/>
+				<caller organisation="default" name="binanceclient_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s_2.11" type="jar" ext="jar" status="successful" details="" size="336" time="797" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s_2.11\jars\json4s_2.11-3.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s_2.11/3.2.11/json4s_2.11-3.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.11.5" status="release" pubdate="20150107003244" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1433" time="94" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scalap\ivy-2.11.5.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scalap\ivy-2.11.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.11.5/scalap-2.11.5.pom"/>
+				<caller organisation="org.json4s" name="json4s-core_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="3.2.11"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="successful" details="" size="771757" time="2935" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.11.5/scalap-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.5" status="release" pubdate="20150107003232" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="2363" time="95" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.11.5.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.11.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.5/scala-compiler-2.11.5.pom"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.11.5"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="14213892" time="8126" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.5/scala-compiler-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141215002104" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="2156" time="98" location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.3.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="2.11.5"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="successful" details="" size="415523" time="1863" location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141204201814" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="2518" time="98" location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.3.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="2.11.5"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="successful" details="" size="647893" time="2670" location="C:\Users\Chris\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.5" status="release" pubdate="20150107003224" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1568" time="98" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.5.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5.pom"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.7.4"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.7.4"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.11.5"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="4454732" time="4942" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-native_2.11">
+			<revision name="3.2.11" status="release" pubdate="20141024021049" resolver="public" artresolver="public" homepage="https://github.com/json4s/json4s" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2199" time="100" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-native_2.11\ivy-3.2.11.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-native_2.11\ivy-3.2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.11/json4s-native_2.11-3.2.11.pom"/>
+				<caller organisation="default" name="binanceclient_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-native_2.11" type="jar" ext="jar" status="successful" details="" size="67829" time="1148" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.11/json4s-native_2.11-3.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.11">
+			<revision name="3.2.11" status="release" pubdate="20141024021034" resolver="public" artresolver="public" homepage="https://github.com/json4s/json4s" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2546" time="94" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-core_2.11\ivy-3.2.11.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-core_2.11\ivy-3.2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.pom"/>
+				<caller organisation="org.json4s" name="json4s-native_2.11" conf="default, compile, runtime, master" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="3.2.11"/>
+				<artifacts>
+					<artifact name="json4s-core_2.11" type="jar" ext="jar" status="successful" details="" size="589462" time="2578" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.6" status="release" pubdate="20131009045654" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="4786" time="120" location="C:\Users\Chris\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.6.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
+				<caller organisation="org.json4s" name="json4s-core_2.11" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="3.2.11"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="successful" details="" size="32806" time="538" location="C:\Users\Chris\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.f2j" name="arpack_combined_all">
+			<revision name="0.1" status="release" pubdate="20130709052740" resolver="public" artresolver="public" homepage="http://f2j.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1338" time="94" location="C:\Users\Chris\.ivy2\cache\net.sourceforge.f2j\arpack_combined_all\ivy-0.1.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\net.sourceforge.f2j\arpack_combined_all\ivy-0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.11.2"/>
+				<artifacts>
+					<artifact name="arpack_combined_all" type="jar" ext="jar" status="successful" details="" size="1194003" time="3180" location="C:\Users\Chris\.ivy2\cache\net.sourceforge.f2j\arpack_combined_all\jars\arpack_combined_all-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.11">
+			<revision name="3.2.11" status="release" pubdate="20141024021004" resolver="public" artresolver="public" homepage="https://github.com/json4s/json4s" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2013" time="101" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-ast_2.11\ivy-3.2.11.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-ast_2.11\ivy-3.2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.pom"/>
+				<caller organisation="org.json4s" name="json4s-core_2.11" conf="compile, runtime" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="3.2.11"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.11" type="jar" ext="jar" status="successful" details="" size="82421" time="924" location="C:\Users\Chris\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.5" status="release" pubdate="20150107003212" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1424" time="123" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.5.xml" searched="true" original-local-location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.pom"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.7.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.0.3"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.11.5"/>
+				<caller organisation="default" name="binanceclient_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.11.5"/>
+				<caller organisation="org.json4s" name="json4s-native_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="3.2.11"/>
+				<caller organisation="org.json4s" name="json4s_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="3.2.11"/>
+				<caller organisation="io.spray" name="spray-json_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.3.2"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.7.4"/>
+				<caller organisation="org.json4s" name="json4s-core_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="3.2.11"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.0.3"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.11.2"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.11.2"/>
+				<caller organisation="org.json4s" name="json4s-ast_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="3.2.11"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5576839" time="5513" location="C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,5 +1,0 @@
-
-
-object Server extends App {
-  System.out.println("hello");
-}

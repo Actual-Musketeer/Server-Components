@@ -1,0 +1,13 @@
+eclipse
+reload
+eclipse with-source=true
+version
+sbt update
+update
+version
+activator
+compile
+eclipse
+version
+scala
+eclipse
